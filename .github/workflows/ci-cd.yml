@@ -168,3 +168,4 @@ jobs:
           git remote remove origin >/dev/null 2>&1 || true
           git remote add origin "https://${GIT_TOKEN}@github.com/${GITOPS_REPO}.git"
           git push -u origin "${TARGET_BRANCH}"
+
