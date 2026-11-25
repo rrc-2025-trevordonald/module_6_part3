@@ -59,4 +59,3 @@ metadata:
 type: Opaque
 stringData:
   secret-key: "supersecretkey"
-
