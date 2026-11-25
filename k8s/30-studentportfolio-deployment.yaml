@@ -19,7 +19,7 @@ spec:
         - name: ghcr-creds
       containers:
         - name: studentportfolio
-          image: ghcr.io/rrc-2025-TrevorDonald/module_6_part3-studentportfolio:latest
+          image: https://github.com/rrc-2025-TrevorDonald/module_6_part3-studentportfolio:latest
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
